@@ -8,7 +8,7 @@ import ScrollImgs from "../section/ScrollImg";
 import Section4 from "../section/Section4";
 import Reviews from "../section/Reviews";
 import MessageSection from "../section/Messageseciton";
-import ScrollVideo from "../section/Scrollvideo";
+import ScrollVideo from "../section/ScrollVideo";
 
 gsap.registerPlugin(ScrollTrigger);
 
