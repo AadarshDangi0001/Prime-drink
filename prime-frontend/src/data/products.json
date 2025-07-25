@@ -152,5 +152,32 @@
     "image": "/products/prime-item-22.webp",
     "description": "Clean ingredients and bold taste. You’ll love this one.",
     "price": "₹459"
+  }, {
+    "id": 31,
+    "name": "Rpime Kream",
+    "image": "/products/prime-item-31.webp",
+    "description": "Bold hydration with a refreshing boost. Perfect for workouts and daily energy.",
+    "price": "₹890"
+  },
+  {
+    "id": 33,
+    "name": "Novasoul",
+    "image": "/products/prime-item-33.webp",
+    "description": "Tropical flavor blend for optimal hydration. Smooth, sweet and energizing.",
+    "price": "₹700"
+  },
+  {
+    "id": 35,
+    "name": "trackteick",
+    "image": "/products/prime-item-35.webp",
+    "description": "A clean and crisp taste made for athletes and hustlers alike.",
+    "price": "₹849"
+  },
+  {
+    "id": 36,
+    "name": "Mela Moos",
+    "image": "/products/prime-item-36.webp",
+    "description": "High-performance hydration with bold berry notes.",
+    "price": "₹939"
   }
 ]

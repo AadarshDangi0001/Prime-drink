@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './ScrollImg.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -35,6 +36,7 @@ import bottle63 from '../assets/bottle/bottle6/bottle63.png';
 gsap.registerPlugin(ScrollTrigger);
 
 const ScrollImgs = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     // Scroll animation
     gsap.to('.imgscollor .box', {
@@ -95,47 +97,40 @@ const ScrollImgs = () => {
   return (
     <div className="imgscollor overflow-hidden">
       <div className="box">
-      
         <div className="imgs flex items-center text-center">
-             <h1 className='text-[13vh] pl-20 mt-40 text-white scrollimgtext text-stroke-black uppercase font-extrabold'>We have  <br />
-                 
-                delicious <br /> flavors</h1>
+          <h1 className='text-[13vh] pl-20 mt-40 text-white scrollimgtext text-stroke-black uppercase font-extrabold'>We have  <br />
+            delicious <br /> flavors</h1>
         </div>
-        <div className="imgs img1 relative">
-        
-           <img className='absolute left-0 top-0' src={bottle13} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle11} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle12} alt=""/>
-            
-
+        <div className="imgs img1 relative" onClick={() => navigate('/product/31')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle13} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle11} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle12} alt=""/>
         </div>
-        <div className="imgs img2">
-            <img className='absolute left-0 top-0' src={bottle23} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle21} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle22} alt=""/>
+        <div className="imgs img2" onClick={() => navigate('/product/2')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle23} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle21} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle22} alt=""/>
         </div>
-        <div className="imgs img3">
-         <img className='absolute left-0 top-0' src={bottle33} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle31} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle32} alt=""/>
+        <div className="imgs img3" onClick={() => navigate('/product/33')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle33} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle31} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle32} alt=""/>
         </div>
-        <div className="imgs img4">
-         <img className='absolute left-0 top-0' src={bottle43} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle41} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle42} alt=""/>
+        <div className="imgs img4" onClick={() => navigate('/product/4')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle43} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle41} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle42} alt=""/>
         </div>
-        <div className="imgs img5">
-         <img className='absolute left-0 top-0' src={bottle53} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle51} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle52} alt=""/>
+        <div className="imgs img5" onClick={() => navigate('/product/35')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle53} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle51} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle52} alt=""/>
         </div>
-        <div className="imgs img6">
-         <img className='absolute left-0 top-0' src={bottle63} alt=""/>
-           <img className=' absolute left-0 top-0 bottle11' src={bottle61} alt=""/>
-            <img className='absolute left-0 top-0 bottle12' src={bottle62} alt=""/>
+        <div className="imgs img6" onClick={() => navigate('/product/36')} style={{ cursor: 'pointer' }}>
+          <img className='absolute left-0 top-0' src={bottle63} alt=""/>
+          <img className=' absolute left-0 top-0 bottle11' src={bottle61} alt=""/>
+          <img className='absolute left-0 top-0 bottle12' src={bottle62} alt=""/>
         </div>
-      
-      
       </div>
     </div>
   );
