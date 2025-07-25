@@ -56,7 +56,7 @@ const Home = () => {
 
       <div
         ref={section2Ref}
-        className="section2 w-full h-screen flex justify-center items-center bg-black z-10 relative"
+        className="section2 w-full h-screen flex justify-center items-center bg-black z-10 overflow-hidden relative"
         style={{ transformStyle: "preserve-3d", perspective: "1000px" }}
       >
         <div ref={typetextRef}>
