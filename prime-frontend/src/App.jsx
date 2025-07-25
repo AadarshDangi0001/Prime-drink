@@ -13,6 +13,7 @@ import SignupPage from './pages/SignupPage';
 import ProductBuyPage from './pages/ProductBuyPage';
 import Cursor from './components/cursor/Cursor';
 import { CartProvider } from './context/CartContext';
+import Footer from './section/Footer';
 
 
 
@@ -56,6 +57,8 @@ function App() {
          <Route path="/product/:id" element={<ProductBuyPage />} />
 
         </Routes>
+
+          {!hideNavbar && <Footer />}
       </>
     );
   }
