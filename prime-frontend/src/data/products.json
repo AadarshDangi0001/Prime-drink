@@ -1,156 +1,156 @@
 [
   {
     "id": 1,
-    "name": "Prime Hydration - Item 1",
+    "name": "Orange Kream",
     "image": "/products/prime-item-1.webp",
     "description": "Bold hydration with a refreshing boost. Perfect for workouts and daily energy.",
-    "price": "₹249"
+    "price": "₹890"
   },
   {
     "id": 2,
-    "name": "Prime Hydration - Item 2",
+    "name": "Sournova",
     "image": "/products/prime-item-2.webp",
     "description": "Tropical flavor blend for optimal hydration. Smooth, sweet and energizing.",
-    "price": "₹249"
+    "price": "₹700"
   },
   {
     "id": 3,
-    "name": "Prime Hydration - Item 3",
+    "name": "Ice Pop",
     "image": "/products/prime-item-3.webp",
     "description": "A clean and crisp taste made for athletes and hustlers alike.",
-    "price": "₹249"
+    "price": "₹849"
   },
   {
     "id": 4,
-    "name": "Prime Hydration - Item 4",
+    "name": "Meta Moon",
     "image": "/products/prime-item-4.webp",
     "description": "High-performance hydration with bold berry notes.",
-    "price": "₹249"
+    "price": "₹939"
   },
   {
     "id": 5,
-    "name": "Prime Hydration - Item 5",
+    "name": "ISHOWSPEED",
     "image": "/products/prime-item-5.webp",
     "description": "Premium electrolytes in every sip, with a punch of citrus.",
-    "price": "₹249"
+    "price": "₹653"
   },
   {
     "id": 6,
-    "name": "Prime Hydration - Item 6",
+    "name": "Glowberry",
     "image": "/products/prime-item-6.webp",
     "description": "Cool and smooth, this flavor keeps you refreshed and focused.",
-    "price": "₹249"
+    "price": "₹775"
   },
   {
     "id": 7,
-    "name": "Prime Hydration - Item 7",
+    "name": "PRIME x UFC",
     "image": "/products/prime-item-7.webp",
     "description": "Tastes like summer with a hint of tropical breeze.",
     "price": "₹249"
   },
   {
     "id": 8,
-    "name": "Prime Hydration - Item 8",
+    "name": "V",
     "image": "/products/prime-item-8.webp",
     "description": "Crisp, clear hydration with a juicy splash of fruit flavor.",
-    "price": "₹249"
+    "price": "₹999"
   },
   {
     "id": 9,
-    "name": "Prime Hydration - Item 9",
+    "name": "Coka coca",
     "image": "/products/prime-item-9.webp",
     "description": "A zesty blend designed to fuel your daily grind.",
-    "price": "₹249"
+    "price": "₹897"
   },
   {
     "id": 10,
-    "name": "Prime Hydration - Item 10",
+    "name": "Primfree",
     "image": "/products/prime-item-10.webp",
     "description": "Clean hydration with bold grape undertones and real kick.",
-    "price": "₹249"
+    "price": "₹789"
   },
   {
     "id": 11,
-    "name": "Prime Hydration - Item 11",
+    "name": "Ice Pop",
     "image": "/products/prime-item-11.webp",
     "description": "Smooth and light hydration for an active lifestyle.",
     "price": "₹249"
   },
   {
     "id": 12,
-    "name": "Prime Hydration - Item 12",
+    "name": "Cherry Freeze",
     "image": "/products/prime-item-12.webp",
     "description": "Electrolyte-packed and flavor-filled for the modern athlete.",
-    "price": "₹249"
+    "price": "₹349"
   },
   {
     "id": 13,
-    "name": "Prime Hydration - Item 13",
+    "name": "Strawberry Banana",
     "image": "/products/prime-item-13.webp",
     "description": "Sharp flavor and clean finish, this one stands out.",
-    "price": "₹249"
+    "price": "₹349"
   },
   {
     "id": 14,
-    "name": "Prime Hydration - Item 14",
+    "name": "Lemonade",
     "image": "/products/prime-item-14.webp",
     "description": "Get refreshed with a berry-charged hydration boost.",
     "price": "₹249"
   },
   {
     "id": 15,
-    "name": "Prime Hydration - Item 15",
+    "name": "Strawberry Watermelon",
     "image": "/products/prime-item-15.webp",
     "description": "Tangy hydration that fuels your hustle from start to finish.",
-    "price": "₹249"
+    "price": "₹209"
   },
   {
     "id": 16,
-    "name": "Prime Hydration - Item 16",
+    "name": "Tropical Punch",
     "image": "/products/prime-item-16.webp",
     "description": "A frosty, chill flavor that redefines refreshment.",
     "price": "₹249"
   },
   {
     "id": 17,
-    "name": "Prime Hydration - Item 17",
+    "name": "Blue Raspberry",
     "image": "/products/prime-item-17.webp",
     "description": "Recharge your body with this cool and clean flavor.",
-    "price": "₹249"
+    "price": "₹239"
   },
   {
     "id": 18,
-    "name": "Prime Hydration - Item 18",
+    "name": "Lemon Lime",
     "image": "/products/prime-item-18.webp",
     "description": "Designed for focus and hydration with every sip.",
-    "price": "₹249"
+    "price": "₹219"
   },
   {
     "id": 19,
-    "name": "Prime Hydration - Item 19",
+    "name": "Cherry Limeade",
     "image": "/products/prime-item-19.webp",
     "description": "Stay energized with this crisp and citrusy hydration.",
-    "price": "₹249"
+    "price": "₹549"
   },
   {
     "id": 20,
-    "name": "Prime Hydration - Item 20",
+    "name": "Dripsicle",
     "image": "/products/prime-item-20.webp",
     "description": "Hydrate the Prime way with max refreshment and flavor.",
-    "price": "₹249"
+    "price": "₹549"
   },
   {
     "id": 21,
-    "name": "Prime Hydration - Item 21",
+    "name": "Dream Pop",
     "image": "/products/prime-item-21.webp",
     "description": "Tropical twist to your daily hydration needs.",
-    "price": "₹249"
+    "price": "₹439"
   },
   {
     "id": 22,
-    "name": "Prime Hydration - Item 22",
+    "name": "Original",
     "image": "/products/prime-item-22.webp",
     "description": "Clean ingredients and bold taste. You’ll love this one.",
-    "price": "₹249"
+    "price": "₹459"
   }
 ]

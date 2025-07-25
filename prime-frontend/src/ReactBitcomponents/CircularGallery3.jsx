@@ -327,18 +327,32 @@ class App {
     });
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
+    // Import product data from JSON
+    const productData = [
+      { id: 19, name: "Cherry Limeade" },
+      { id: 20, name: "Dripsicle" },
+      { id: 21, name: "Dream Pop" },
+      { id: 22, name: "Original" },
+    ];
+
+    // Helper to get product name by id
+    function getProductName(id) {
+      const product = productData.find((p) => p.id === id);
+      return product ? product.name : "";
+    }
+
     const defaultItems = [
-      { image: '/products/prime-item-19.webp', text: "Bridge" },
-      { image: `/products/prime-item-20.webp`, text: "Desk Setup" },
-      { image: `/products/prime-item-21.webp`, text: "Strawberries" },
-      { image: `/products/prime-item-22.webp`, text: "Deep Diving" },
-      { image: `/products/prime-item-19.webp`, text: "Train Track" },
-      { image: `/products/prime-item-20.webp`, text: "Santorini" },
-      { image: `/products/prime-item-21.webp`, text: "Blurry Lights" },
-      { image: `/products/prime-item-22.webp`, text: "New York" },
-      { image: `/products/prime-item-19.webp`, text: "Good Boy" },
-      { image: `/products/prime-item-20.webp`, text: "Coastline" },
-      { image: `/products/prime-item-21.webp`, text: "Coastline" },
+      { image: '/products/prime-item-19.webp', text: getProductName(19) },
+      { image: '/products/prime-item-20.webp', text: getProductName(20) },
+      { image: '/products/prime-item-21.webp', text: getProductName(21) },
+      { image: '/products/prime-item-22.webp', text: getProductName(22) },
+      { image: '/products/prime-item-19.webp', text: getProductName(19) },
+      { image: '/products/prime-item-20.webp', text: getProductName(20) },
+      { image: '/products/prime-item-21.webp', text: getProductName(21) },
+      { image: '/products/prime-item-22.webp', text: getProductName(22) },
+      { image: '/products/prime-item-19.webp', text: getProductName(19) },
+      { image: '/products/prime-item-20.webp', text: getProductName(20) },
+      { image: '/products/prime-item-21.webp', text: getProductName(21) },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

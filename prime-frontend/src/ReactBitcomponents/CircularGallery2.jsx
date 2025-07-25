@@ -327,18 +327,36 @@ class App {
     });
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
+    // Import product data from JSON
+    const productData = [
+      { id: 11, name: "Ice Pop" },
+      { id: 12, name: "Cherry Freeze" },
+      { id: 13, name: "Strawberry Banana" },
+      { id: 14, name: "Lemonade" },
+      { id: 15, name: "Strawberry Watermelon" },
+      { id: 16, name: "Tropical Punch" },
+      { id: 17, name: "Blue Raspberry" },
+      { id: 18, name: "Lemon Lime" },
+    ];
+
+    // Helper to get product name by id
+    function getProductName(id) {
+      const product = productData.find((p) => p.id === id);
+      return product ? product.name : "";
+    }
+
     const defaultItems = [
-      { image: '/products/prime-item-11.webp', text: "Bridge" },
-      { image: `/products/prime-item-12.webp`, text: "Desk Setup" },
-      { image: `/products/prime-item-13.webp`, text: "Strawberries" },
-      { image: `/products/prime-item-14.webp`, text: "Deep Diving" },
-      { image: `/products/prime-item-15.webp`, text: "Train Track" },
-      { image: `/products/prime-item-16.webp`, text: "Santorini" },
-      { image: `/products/prime-item-17.webp`, text: "Blurry Lights" },
-      { image: `/products/prime-item-18.webp`, text: "New York" },
-      { image: `/products/prime-item-13.webp`, text: "Good Boy" },
-      { image: `/products/prime-item-14.webp`, text: "Coastline" },
-      { image: `/products/prime-item-15.webp`, text: "Coastline" },
+      { image: '/products/prime-item-11.webp', text: getProductName(11) },
+      { image: '/products/prime-item-12.webp', text: getProductName(12) },
+      { image: '/products/prime-item-13.webp', text: getProductName(13) },
+      { image: '/products/prime-item-14.webp', text: getProductName(14) },
+      { image: '/products/prime-item-15.webp', text: getProductName(15) },
+      { image: '/products/prime-item-16.webp', text: getProductName(16) },
+      { image: '/products/prime-item-17.webp', text: getProductName(17) },
+      { image: '/products/prime-item-18.webp', text: getProductName(18) },
+      { image: '/products/prime-item-13.webp', text: getProductName(13) },
+      { image: '/products/prime-item-14.webp', text: getProductName(14) },
+      { image: '/products/prime-item-15.webp', text: getProductName(15) },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);
