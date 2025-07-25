@@ -67,7 +67,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed z-[5000] w-full px-6 py-4 flex justify-between items-center bg-white shadow">
+      <div className="fixed z-[5000] overflow-hidden w-[100vw] px-6 py-4 flex justify-between items-center bg-white shadow">
         <div
           className="text-xl font-bold text-black cursor-pointer"
           onClick={() => window.location.href = "/"}
