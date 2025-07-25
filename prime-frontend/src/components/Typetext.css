@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+.mainhome-section-2{
+    margin-top: 0;
+}
+.home-section-2{
+    height: 60vh;
+    /* background-color: aqua; */
+}
+.sec2text{
+    font-size: 8vh;
+}
+
+.text-stroke-red {
+  -webkit-text-stroke: 2px #2A7804;
+  /* text-stroke: 2px #2A7804; */
+
+}
+.section2{
+    margin-top: 0;
+    height: 60vh;
+    /* background-color: rgb(17, 188, 250); */
+}
+
+}
+
+
+@media (max-width: 400px) {
+.mainhome-section-2{
+    margin-top: 0;
+}
+.home-section-2{
+    margin: 0;
+    height: 40vh;
+    /* background-color: aqua; */
+}
+.sec2text{
+    font-size: 6vh;
+}
+
+.text-stroke-red {
+  -webkit-text-stroke: 2px #2A7804;
+  /* text-stroke: 2px #2A7804; */
+
+}
+
+.section2{
+    margin-top: 0;
+    height: 50vh;
+    /* background-color: rgb(17, 188, 250); */
+}
+
+}
