@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/api'; 
+const API_URL = 'https://prime-drink.onrender.com/api'; 
 
 export const registerUser = async (username, email, password) => {
   const res = await axios.post(`${API_URL}/auth/register`, { username, email, password });

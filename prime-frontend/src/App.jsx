@@ -14,6 +14,7 @@ import ProductBuyPage from './pages/ProductBuyPage';
 import Cursor from './components/cursor/Cursor';
 import { CartProvider } from './context/CartContext';
 import Footer from './section/Footer';
+import Loader from './pages/Loader';
 
 
 
@@ -45,6 +46,7 @@ function App() {
     const hideNavbar = location.pathname === '/login' || location.pathname === '/signup';
     return (
       <>
+      {/* <Loader/> */}
         {!hideNavbar && <Navbar />}
         {/* <SplashCursor /> */}
       
