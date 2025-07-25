@@ -53,7 +53,7 @@ const Typetext = () => {
 
   return (
     
-    <div className='mt-30  overflow-hidden mainhome-section-2'>
+    <div className='mt-30   mainhome-section-2'>
       <div ref={sectionRef} className="home-section-2 flex relative flex-col justify-center items-center h-full">
      <Particles
     particleColors={['#ffffff', '#ffffff']}
